@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Falls die Anfrage direkt auf eine Datei oder ein Verzeichnis zeigt, ignoriere sie
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # Leite alles an /public weiter
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>

@@ -1,0 +1,50 @@
+/* Small screens (up to 640px) */
+@media (max-width: 640px) {
+    .container {
+      padding: 0 0.75rem;
+    }
+    
+    .header-content {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .card {
+      padding: 1rem;
+    }
+    
+    .website-card-header {
+      flex-direction: column;
+    }
+    
+    .website-actions {
+      margin-top: 0.75rem;
+    }
+    
+    .alert {
+      left: 1rem;
+      right: 1rem;
+      max-width: none;
+    }
+  }
+  
+  /* Medium screens (640px to 768px) */
+  @media (min-width: 641px) and (max-width: 768px) {
+    .container {
+      padding: 0 1rem;
+    }
+  }
+  
+  /* Large screens (above 768px) */
+  @media (min-width: 769px) {
+    .container {
+      padding: 0 1.5rem;
+    }
+  }
+  
+  /* Extra large screens (above 1024px) */
+  @media (min-width: 1025px) {
+    .main-content {
+      padding: 2rem 1.5rem;
+    }
+  }

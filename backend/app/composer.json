@@ -1,0 +1,23 @@
+{
+    "name": "fluffyspectre/rss-feed-generator",
+    "description": "A tool to create RSS-Feeds of any news website",
+    "type": "project",
+    "license": "MIT",
+    "scripts": {
+        "serve": "php -S localhost:8000 -t public"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Björn Bosse",
+            "email": "b.bosse1991@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}

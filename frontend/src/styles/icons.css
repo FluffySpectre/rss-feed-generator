@@ -1,0 +1,40 @@
+/* Icon sizing */
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+    vertical-align: -0.125em;
+  }
+  
+  .icon-sm {
+    width: 0.875em;
+    height: 0.875em;
+  }
+  
+  .icon-lg {
+    width: 1.33em;
+    height: 1.33em;
+  }
+  
+  .icon-xl {
+    width: 1.5em;
+    height: 1.5em;
+  }
+  
+  /* Clock icon for automated updates messaging */
+  .icon-clock::before {
+    content: "\f017";
+    font-family: "Font Awesome 5 Free";
+    margin-right: 0.25rem;
+  }
+  
+  /* Common SVG styles */
+  .svg-icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+  }

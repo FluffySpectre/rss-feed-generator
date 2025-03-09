@@ -1,0 +1,7 @@
+vendor/
+
+logs/*
+!logs/.gitkeep
+
+public/sites/**/*
+!public/sites/.gitkeep
